@@ -1,4 +1,4 @@
-##Command-line restaurant ordering app.
+## Command-line restaurant ordering app.
 
 Made using JDK 8.
 
@@ -13,7 +13,7 @@ mvn compile exec:java -Dexec.args="src\main\resources\menu.csv"
 
 Alternatively a path to a custom csv file can be supplied.
 
-###OrderSystem
+### OrderSystem
 OrderSystem is a class responsible for executing the ordering algorithm. 
 The class's constructor accepts an `ItemMenu` object containing available meals and drinks.
 
