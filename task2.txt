@@ -9,5 +9,4 @@ SELECT CountryID FROM XF.Country
 WHERE CountryID = Any
 	(SELECT c.CountryID FROM XF.City AS c 
 	LEFT JOIN XF.Building AS b ON c.CityID = b.CityID
-	GROUP BY c.CountryID
 	WHERE BuildingID IS NULL);
